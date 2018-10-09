@@ -1,2 +1,2 @@
-n=input()
+n=int(input())
 print(len(n))
