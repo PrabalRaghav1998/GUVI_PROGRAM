@@ -1,7 +1,6 @@
 n=input()
-s="0123456789"
 c=0
 for i in n:
-    if i in s:
+    if i.isdigit():
         c+=1
 print(c)
