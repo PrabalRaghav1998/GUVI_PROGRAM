@@ -1,3 +1,2 @@
 n=int(input())
-m=int(str(n)[::-1])
-print(m)
+print(int(str(n)[::-1]))
