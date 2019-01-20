@@ -6,6 +6,6 @@ for i in l:
     if i<max:
         max2=max
         max=i
-    elif i<max2 and i>max:
+    elif i<max2 and i>=max:
         max2=i
 print(max2)
