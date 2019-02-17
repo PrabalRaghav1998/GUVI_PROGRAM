@@ -1,2 +1,3 @@
 n,k=map(int,input().split())
-print(n**k)
+n1=n**k
+print(n1)
